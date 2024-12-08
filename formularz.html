@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+</head>
+<body>
+<div style="backgroud-color:grey;">
+		<h1><center> Projektowanie Stron Internetowych - Veronika Markovych </center></h1>
+	</div>
+	<div style="float:left;width:30%;height:550px;">
+
+    <h2>Formularz</h2>
+
+    <form action="#" method="post">
+        <!-- Pole tekstowe -->
+        <label for="text">Imię i nazwisko:</label>
+        <input type="text" id="text" name="text" required></br></br>
+
+        <!-- Pole e-mail -->
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required></br></br>
+
+        <!-- Pole hasło -->
+        <label for="password">Hasło:</label>
+        <input type="password" id="password" name="password" required></br></br>
+
+        <!-- Input radio -->
+        <label>Płeć:</label></br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Mężczyzna</label></br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Kobieta</label></br></br>
+
+        <!-- Input checkbox -->
+        <label>Zainteresowania:</label></br>
+        <input type="checkbox" id="sport" name="interest" value="sport">
+        <label for="sport">Sport</label></br>
+        <input type="checkbox" id="music" name="interest" value="music">
+        <label for="music">Muzyka</label></br>
+        <input type="checkbox" id="art" name="interest" value="art">
+        <label for="art">Sztuka</label></br></br>
+
+        <!-- Kontener select -->
+        <label for="country">Wybierz kraj:</label>
+        <select id="country" name="country">
+            <option value="pl">Polska</option>
+            <option value="de">Niemcy</option>
+            <option value="uk">Wielka Brytania</option>
+            <option value="fr">Francja</option>
+        </select><br><br>
+
+        <input type="submit" value="Wyślij">
+    </form> </br>
+
+<form  action="#" method="post">
+	<!-- Pole Tekstowe -->
+	<label for="text">JĘZYKI, KTÓRYMI WŁADASZ:</label> </br>
+	<input type="checkbox" id="sport" name="interest" value="sport">
+        <label for="sport">ANG</label></br>
+        <input type="checkbox" id="music" name="interest" value="music">
+        <label for="music">NIE</label></br>
+        <input type="checkbox" id="art" name="interest" value="art">
+        <label for="art">CHN</label></br></br>
+
+	<input list="blok" name="ULUBIONE OWOCE"/>
+	<datalist id="blok">
+		<option value="INTERNET">
+		<option value="FIREFOX">
+		<option value="CHROME">
+		<option value="OPERA">
+		<option value="SAFARI">
+	</datalist><input type="submit" name="Prześlij">
+	<button type="button" name="nazxwa_przycisku"></button>
+	<p><button type="submit" name="przycisk1"><onclick=('Prześlij')></button></p></br></br>
+	
+	
+	</form>
+</body>
+</div>
+	<div style="float:right; width:70%;">
+ </div>
+ <div style="background-color:grey;clear:both;"><center> &copy; M.V., October 2024
+ </center></div>
+</html>
